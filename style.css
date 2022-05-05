@@ -1,0 +1,24 @@
+.fruits{
+    border: 3px solid firebrick;
+    color: white;
+    background: chocolate;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+.cars{
+    border: 3px cadetblue;
+    color: antiquewhite;
+    background: darkgreen;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+.dog{
+    border: #68ea34;
+    color: cadetblue;
+    background: yellowgreen;
+    text-align: center;
+    padding: 12px;
+    margin: 25px;
+}

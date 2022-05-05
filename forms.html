@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    form{
+      text-align: center;
+      background-color: #2b9319;
+      margin: 3px;
+      padding: 20px;
+      border-style: double;
+      font-size: large;
+      color: #191f93;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<body background="images/venom.jpeg">
+<h1>REGISTRATION FORM</h1>
+<form action="">
+  <label for="fname">First name</label>
+  <input type="text" id="fname" placeholder="imput first name"><br>
+  <label for="lname">Last name</label>
+  <input type="text" id="lname" placeholder="imput last name"><br>
+  <label for="dor"> Date of registration</label>
+  <input type="date" id="dor"><br>
+  <label for="upload image">upload image</label>
+  <input type="file" id="upload image"><br>
+  <label for="course">Course Taken</label>
+  <select name="course" id="course">
+    <option value="Full stack software">Full stack</option>
+    <option value="python">python</option>
+    <option value="Javascript">Javascript</option>
+    <option value="Front end">Front end</option>
+  </select><br>
+  Gender <br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="Gender">
+  <label for="female">Female</label>
+  <input type="radio" id="female"><br>
+  <label for="email">Email</label>
+  <input type="text" id="email" placeholder="Enter Email Address"><br>
+  <label for="pass">password</label>
+  <input type="password" id="pass"><br>
+  <input type="submit" value="log in">
+  <button type="button" onclick="alert()"></button>
+</form>
+</body>
+</html>

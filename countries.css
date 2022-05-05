@@ -1,0 +1,24 @@
+#Kenya{
+    border: 3px chartreuse;
+    color: #122c6c;
+    background: #ff001e;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+#Uganda{
+    border: 2px cornflowerblue;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background: #1b1bec;
+}
+#Greece{
+    border: 3px crimson;
+    color: chartreuse;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background: darkgreen;
+}
